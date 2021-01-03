@@ -1,0 +1,307 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<head>
+    <title>Trailer|Traiser</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{% static 'assetssss/css/main.css' %}" />
+</head>
+{% endblock %}
+
+{% block header %}
+<header id="header">
+    <h1><a href="#">Trailer <span>| Traiser</span></a></h1>
+    <a href="#menu">Menu</a>
+</header>
+{% endblock %}
+
+{% block nav %}
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="{% url 'anasayfa' %}">Home</a></li>
+    </ul>
+</nav>
+{% endblock %}
+
+{% block banner %}
+<section id="banner">
+    <div class="inner">
+        <header>
+            <h1>TrailersTeaser</h1>
+            <p>Movie trailers and TV Shows news at trailersteaser.com<br />
+                <hr/></p>
+        </header>
+        <a href="#main" class="button big alt scrolly">-- ↓↓↓ --</a>
+    </div>
+
+</section>
+{% endblock %}
+
+{% block one %}
+<!-- One -->
+<section class="wrapper style1">
+    <div class="inner">
+        <header class="align-center">
+            <h2>Watch amazing movies and TV shows for free. No subscription fees, and no credit cards.</h2>
+            <p>We love movies and series! TrailersTeaser was created for people like us who want to watch "Great Movies. Free."</p>
+        </header>
+        <!-- 2 Column Video Section -->
+        <div class="flex flex-2">
+            <div class="video col">
+                <div class="image fit">
+                    <img src="{% static 'imagessss/titanic.jpg' %}" alt="" />
+                    <div class="arrow">
+                        <div class="icon fa-play"></div>
+                    </div>
+                </div>
+                <p class="caption">
+                    TITANIC
+                </p>
+                <a href="https://www.dailymotion.com/video/x79e0ey"  target="_blank" class="link"><span>Click Me</span></a>
+            </div>
+            <div class="video col">
+                <div class="image fit">
+                    <img src="{% static 'imagessss/shrek.jpg' %}" alt="" />
+                    <div class="arrow">
+                        <div class="icon fa-play"></div>
+                    </div>
+                </div>
+                <p class="caption">
+                    SHREK
+                </p>
+                <a href="https://www.dailymotion.com/video/x776xk1" target="_blank" class="link"><span>Click Me</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block two %}
+<!-- Two -->
+<section class="wrapper style2">
+    <div class="inner">
+        <header>
+            <h2>CATEGORIES</h2>
+            <p>You can find here all categories..</p>
+        </header>
+        <!-- Tabbed Video Section -->
+        <div class="flex flex-tabs">
+            <ul class="tab-list">
+                <li><a href="#" data-tab="tab-1" class="active">Cartoon</a></li>
+                <li><a href="#" data-tab="tab-2">Action</a></li>
+                <li><a href="#" data-tab="tab-3">Drama</a></li>
+            </ul>
+            <div class="tabs">
+
+                <!-- Tab 1 -->
+                <div class="tab tab-1 flex flex-3 active">
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/kungfu.jpg' %}" target="_blank" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7tgxq0" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/toy.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x79e0f6" target="_blank" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/sonic.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7tmegf" target="_blank" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/howto.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7u4m7m" target="_blank" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/inc.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x78gptc" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/moana.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7tjhne" class="link"><span>Click Me</span></a>
+                    </div>
+                </div>
+
+                <!-- Tab 2 -->
+                <div class="tab tab-2 flex flex-3">
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/matrix.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7rudem" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/pirates.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7ognvn" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/spid.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7tn40p" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/aveng.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x77yfuv" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/star.jpg'%}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x77njy3" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/jumanji.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7tespp" class="link"><span>Click Me</span></a>
+                    </div>
+                </div>
+
+                <!-- Tab 3 -->
+                <div class="tab tab-3 flex flex-3">
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/jojo.png' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7u67hu" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/hacksaw.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7nrizc" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/apo.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7odqtu" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/once.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7tk4pa" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/black.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x7pairx" class="link"><span>Click Me</span></a>
+                    </div>
+                    <!-- Video Thumbnail -->
+                    <div class="video col">
+                        <div class="image fit">
+                            <img src="{% static 'imagessss/thegod.jpg' %}" alt="" />
+                            <div class="arrow">
+                                <div class="icon fa-play"></div>
+                            </div>
+                        </div>
+                        <a href="https://www.dailymotion.com/video/x78dadd" class="link"><span>Click Me</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block three %}
+
+{% endblock %}
+
+{% block footer %}
+
+<!-- Footer -->
+<footer id="footer">
+    
+</footer>
+{% endblock %}
